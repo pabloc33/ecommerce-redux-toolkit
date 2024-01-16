@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SingleProduct /> debe de mostrarse correactamente con valores por defecto 1`] = `
+<div>
+  <div>
+    <div
+      class="flex flex-col md:flex-row items-center md:py-10"
+    >
+      <div
+        class="md:pl-6 lg:pl-12 xl:pl-20 grow-[2]"
+      >
+        <img
+          alt="Casual T-Shirt 1"
+          class="w-full md:max-w-[450px] lg:max-w-[550px] xl:max-w-[650px] h-auto rounded-lg"
+          src="[object Undefined]"
+        />
+      </div>
+      <div
+        class="grow-[3] mt-6 md:mt-0 md:pl-6 lg:pl-12 xl:pl-20"
+      >
+        <div>
+          <div
+            class="max-w-lg"
+          >
+            <h5
+              class="text-2xl md:text-3xl lg:text-4xl font-inter font-bold tracking-normal leading-normal"
+            >
+              Casual T-Shirt 1
+            </h5>
+            <p
+              class="text-orange-700 text-xl md:text-2xl lg:text-3xl font-inter font-bold tracking-normal leading-relaxed pb-4"
+            >
+              15% OFF
+            </p>
+            <p
+              class="text-gray-600 text-xl md:text-2xl lg:text-3xl font-inter font-bold tracking-normal leading-relaxed pb-4"
+            >
+              Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.
+            </p>
+            <div
+              class="pb-4"
+            >
+              <div>
+                <label
+                  class="block mb-2 text-sm md:text-base font-medium text-gray-900 dark:text-white"
+                  for="size"
+                >
+                  Pick a size
+                </label>
+                <select
+                  class="w-full md:max-w-md lg:max-w-lg bg-gray-50 border border-gray-300 text-gray-900 text-sm md:text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  id="size"
+                  name="size"
+                >
+                  <option
+                    value="XL"
+                  >
+                    XL
+                  </option>
+                  <option
+                    value="L"
+                  >
+                    L
+                  </option>
+                  <option
+                    value="M"
+                  >
+                    M
+                  </option>
+                  <option
+                    value="S"
+                  >
+                    S
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div
+              class="pb-4"
+            >
+              <label
+                class="block mb-2 text-sm md:text-base font-medium text-gray-900 dark:text-white"
+                for="color"
+              >
+                Pick a color
+              </label>
+              <select
+                class="w-full md:max-w-md lg:max-w-lg bg-gray-50 border border-gray-300 text-gray-900 text-sm md:text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                id="color"
+                name="color"
+              >
+                <option
+                  value="black"
+                >
+                  black
+                </option>
+                <option
+                  value="gray"
+                >
+                  gray
+                </option>
+                <option
+                  value="green"
+                >
+                  green
+                </option>
+              </select>
+            </div>
+            <button
+              aria-label="addToCart-btn"
+              class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-sm py-3.5 px-7 rounded-lg border border-gray-900 text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] gap-3"
+              type="button"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
